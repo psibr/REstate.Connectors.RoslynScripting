@@ -24,7 +24,7 @@
     <file src="bin\Release\Microsoft.CodeAnalysis.Scripting.dll" target="lib\restate-plugin" />
     <file src="bin\Release\Microsoft.CodeAnalysis.CSharp.dll" target="lib\restate-plugin" />
     <file src="bin\Release\Microsoft.CodeAnalysis.dll" target="lib\restate-plugin" />
-    <file src="bin\Release\System.Reflection.Metadata" target="lib\restate-plugin" />
+    <file src="bin\Release\System.Reflection.Metadata.dll" target="lib\restate-plugin" />
     <file src="bin\Release\System.IO.FileSystem.Primitives.dll" target="lib\restate-plugin" />
     <file src="bin\Release\System.IO.FileSystem.dll" target="lib\restate-plugin" />
     <file src="bin\Release\System.Diagnostics.StackTrace.dll" target="lib\restate-plugin" />
