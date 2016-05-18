@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>REstate.Connectors.RoslynScripting</id>
+    <version>$version$</version>
+    <authors>Ovan Crone</authors>
+    <owners>Ovan Crone</owners>
+    <licenseUrl>https://github.com/psibr/REstate/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/psibr/REstate</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Action connector for Roslyn C# code</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>REstate</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\REstate.Connectors.RoslynScripting.dll" target="lib\net461" />
+    <file src="bin\Release\REstate.Connectors.RoslynScripting.Globals.dll" target="lib\net461" />
+    <file src="bin\Release\REstate.Connectors.RoslynScripting.dll" target="lib\restate-plugin" />
+    <file src="bin\Release\REstate.Connectors.RoslynScripting.Globals.dll" target="lib\restate-plugin" />
+    <file src="bin\Release\Polly.dll" target="lib\restate-plugin" />
+    <file src="bin\Release\RabbitMQ.Client.dll" target="lib\restate-plugin" />
+  </files>
+</package>
