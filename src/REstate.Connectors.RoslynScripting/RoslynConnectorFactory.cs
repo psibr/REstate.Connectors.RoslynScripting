@@ -15,6 +15,9 @@ namespace REstate.Connectors.RoslynScripting
         }
 
         public string ConnectorKey { get; } = "REstate.Connectors.RoslynScripting";
+        public bool IsActionConnector { get; } = true;
+        public bool IsGuardConnector { get; } = true;
+        public string ConnectorSchema { get; set; } = "{ }";
 
         public Task<IConnector> BuildConnector(string apiKey)
         {
